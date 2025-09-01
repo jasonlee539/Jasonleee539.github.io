@@ -1,7 +1,8 @@
 <!-- each category page -->
 {% if page.type %}
 <div class="archive">
-  <p class="archive_type">{{ page.type }}</p>
+  <!-- Display the category name -->
+  <p class="archive_type">{{ page.type | capitalize }}</p>
   <ul>
     {% for post in site.categories[page.type] %}
     {% if post.url %}
@@ -17,7 +18,6 @@
       </li>
     {% endif %}
     {% endfor %}
-
   </ul>
 </div>
 
