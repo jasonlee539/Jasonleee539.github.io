@@ -23,7 +23,7 @@ user:
   name: JasonLeee539
   pic: /assets/img/cat.jpg
   picAlt: "Fengze Li's Homepage"
-  job: A homepage for showing my work
+  job: A homepage for showing my work.
   aboutme: true # comment this out if you don't need the 'about' page.
 
 exclude:
